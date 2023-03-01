@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>portifolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+  <header id="headerMenu"
+    class="h-16 fixed w-full flex justify-center items-center bg-OxfordBlue  z-10 sm:justify-between opacity-70 sm:p-2">
+    <h1 class="ml-10 text-white font-bold text-big max-sm:hidden">Bruno G.</h1>
+
+    <nav id="navbar" class="relative sm:ml-20 sm:flex max-sm:top-10 hidden">
+      <ul class="flex text-white gap-[50px] text-[18px] font-bold flex-col justify-center items-center sm:flex-row">
+        <li class="hover:text-Palatinate"><a href="#home">Home</a></li>
+        <li class="hover:text-Palatinate"><a href="#about">About</a></li>
+        <li class="hover:text-Palatinate"><a href="#works">Works</a></li>
+        <li class="hover:text-Palatinate ms:mr-10"><a href="#footer">Contact</a></li>
+      </ul>
+    </nav>
+    <span id="menu" class="sm:hidden absolute top-0 right-0 m-2"><i
+        class='bx bx-menu-alt-left text-big cursor-pointer'></i></span>
+  </header>
+  <section id="home" class="text-Black flex relative">
+    <div id="banner"
+      class="absolute flex-col-reverse transition duration-100 flex sm:flex-row bg-white justify-start items-center max-w-2xl m-10 py-[15px] rounded-xl sm:m-20">
+      <div id="text" class="relative flex flex-col mx-10 justify-start items-start">
+        <h2 class="font-bold text-smallbig mb-1 hidden sm:block">Bruno G. Silva</h2>
+        <h3 class="text-[18px] mb-10 hidden sm:block">Front End Developer and Designer</h3>
+        <h2 class="font-bold text-smallbig mb-1 text-Palatinate">“Life is not a game of luck. If you want to win, work
+          hard.”</h2>
+      </div>
+      <div id="card" class="mr-10">
+        <div id="cardFront">
+          <img src="images/background.png" class="rounded-full sm:rounded-2xl">
+        </div>
+        <div id="cardBack">
+          <img src="images/BrunoGS.png" class="rounded-full sm:rounded-2xl" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="about" class="flex flex-col justify-center items-start transition duration-100">
+    <div id="text2" class="flex justify-center items-start flex-col max-w-3xl ml-10 my-20">
+      <h1 class="text-white text-smallbig mb-5">about me</h1>
+      <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis nesciunt dicta quasi
+        excepturi quia ullam culpa voluptates laudantium sunt dolorem voluptas rem non velit optio architecto molestias,
+        reprehenderit voluptatem?</p>
+      <br>
+      <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis nesciunt dicta quasi
+        excepturi quia ullam culpa voluptates laudantium sunt dolorem voluptas rem non velit optio architecto molestias,
+        reprehenderit voluptatem?</p>
+    </div>
+    <h2 class="text-smallbig text-white ml-10 mb-10">me hardskills</h2>
+    <div id="myHardSkills" class="flex gap-10 w-32 h-32 ml-10 mb-5">
+      <img src="images/html.png">
+      <img src="images/css.png">
+      <img src="images/js.png">
+      <img src="images/tailwind.png">
+    </div>
+  </section>
+  <section id="works">
+    <div id="cardWork" class="p-10 bg-white rounded-xl">
+      <div id="tituloCard" class="flex gap-4">
+        <img src="images/icon_LandingPage.png">
+        <h3>Digital Store</h3>
+      </div>
+    </div>
+  </section>
+  <footer id="footer"></footer>
+  <script src="/src/js/index.js"></script>
+</body>
+
+</html>
